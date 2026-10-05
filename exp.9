@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+
+class complex {
+    public:
+    int real;
+    int imag;
+    complex(int r,int i){
+        real=r;
+        imag=i;
+
+    }
+
+    void print(){
+        cout<<real<<"+"<<imag<<"i"<<endl;
+    }
+};
+
+int main(){
+
+    complex obj(10,5);
+    obj.print();
+
+    return 0;
+
+}
